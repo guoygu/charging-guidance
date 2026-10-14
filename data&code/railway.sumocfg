@@ -1,0 +1,14 @@
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+    <!-- 输入文件 -->
+    <input>
+        <net-file value="railway.net.xml"/>
+        <route-files value="railway.rou.xml"/>
+        <additional-files value="additionalFile.xml"/>
+    </input>
+
+    <time>
+        <time-to-teleport value="300"/> 
+        <step-length value="1"/> 
+    </time>
+
+</configuration>

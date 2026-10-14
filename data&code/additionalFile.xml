@@ -1,0 +1,130 @@
+<additional>
+    <!-- 定义电动车类型（参考比亚迪秦L470KM领先型）-->
+    <vType id="ElectricVehicle" accel="3.4" decel="4.5" length="4.72" maxSpeed="50" sigma="0.5" minGap="2.5" mass="1700" color="1,1,1" departLane="best">
+        <param key="has.battery.device" value="true"/>
+        <param key="device.battery.capacity" value="46000"/>
+        <param key="frontSurfaceArea" value="2.1"/>
+        <param key="airDragCoefficient" value="0.28"/>
+        <param key="rotatingMass" value="140"/>
+        <param key="radialDragCoefficient" value="0.2"/>
+        <param key="rollDragCoefficient" value="0.015"/>
+        <param key="constantPowerIntake" value="150"/>
+        <param key="propulsionEfficiency" value="0.85"/>
+        <param key="recuperationEfficiency" value="0.7"/>
+        <param key="stoppingThreshold" value="0.15"/>
+        <param key="device.battery.maximumChargeRate" value="100000"/>
+    </vType>
+    
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation1" lane="-984015955#0_0" startPos="0" endPos="-1" power="120000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station1"/>
+        <param key="parkingArea" value="parkingArea1"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea1" lane="-984015955#0_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation2" lane="902243070#2_0" startPos="0" endPos="-1" power="120000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station2"/>
+        <param key="parkingArea" value="parkingArea2"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea2" lane="902243070#2_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation3" lane="389390029#1_0" startPos="0" endPos="-1" power="120000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station3"/>
+        <param key="parkingArea" value="parkingArea3"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea3" lane="389390029#1_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation4" lane="103279745_0" startPos="0" endPos="-1" power="120000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station4"/>
+        <param key="parkingArea" value="parkingArea4"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea4" lane="103279745_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation5" lane="568515711_0" startPos="0" endPos="-1" power="60000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station5"/>
+        <param key="parkingArea" value="parkingArea5"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea5" lane="568515711_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation6" lane="1192735216#0_0" startPos="0" endPos="-1" power="60000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station6"/>
+        <param key="parkingArea" value="parkingArea6"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea6" lane="1192735216#0_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation7" lane="186030204#2_0" startPos="0" endPos="-1" power="120000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station7"/>
+        <param key="parkingArea" value="parkingArea7"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea7" lane="186030204#2_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation8" lane="307005415#0_0" startPos="0" endPos="-1" power="90000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station8"/>
+        <param key="parkingArea" value="parkingArea8"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea8" lane="307005415#0_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation9" lane="-186361961#1_0" startPos="0" endPos="-1" power="90000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station9"/>
+        <param key="parkingArea" value="parkingArea9"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea9" lane="-186361961#1_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation10" lane="902243070#0_0" startPos="0" endPos="-1" power="60000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station10"/>
+        <param key="parkingArea" value="parkingArea10"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea10" lane="902243070#0_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation11" lane="185866706#9_0" startPos="0" endPos="-1" power="120000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station11"/>
+        <param key="parkingArea" value="parkingArea11"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea11" lane="185866706#9_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation12" lane="-186362527#1_0" startPos="0" endPos="-1" power="180000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station12"/>
+        <param key="parkingArea" value="parkingArea12"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea12" lane="-186362527#1_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation13" lane="1028176908#2_0" startPos="0" endPos="-1" power="160000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station13"/>
+        <param key="parkingArea" value="parkingArea13"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea13" lane="1028176908#2_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+    <!-- 定义充电站 -->
+    <chargingStation id="chargingStation14" lane="389389609#1_0" startPos="0" endPos="-1" power="90000" efficiency="0.9" chargeInTransit="false" chargeDelay="0" chargeType="normal">
+        <param key="name" value="Charging Station14"/>
+        <param key="parkingArea" value="parkingArea14"/>
+    </chargingStation>
+    <!-- 定义停车场 -->
+    <parkingArea id="parkingArea14" lane="389389609#1_0" startPos="0" endPos="-1" width="5" roadsideCapacity="1000" chargeInTransit="0" chargeOutTransit="0" chargeDelay="0" chargeType="normal"/>
+
+</additional>
